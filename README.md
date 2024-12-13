@@ -18,9 +18,10 @@ This project is a React Native application built using Expo. The app integrates 
 https://github.com/user-attachments/assets/a2ba1ca9-72e8-4f36-9bae-c0d4baad1ef8
 
 
-![Screenshot 2024-12-13 215124](https://github.com/user-attachments/assets/c91921a6-f9fb-4bb8-b63d-32747ab85f36)
-![Screenshot 2024-12-13 215156](https://github.com/user-attachments/assets/f1216e28-7cc8-4b81-a4f5-e69b94b47ef6)
-![Screenshot 2024-12-13 215259](https://github.com/user-attachments/assets/b120086c-602f-4495-a091-b3b0733caee0)
+<img src="https://github.com/user-attachments/assets/c91921a6-f9fb-4bb8-b63d-32747ab85f36" alt="Screenshot" width="370" height="600">
+<img src="https://github.com/user-attachments/assets/f1216e28-7cc8-4b81-a4f5-e69b94b47ef6" alt="Screenshot" width="370" height="600">
+<img src="https://github.com/user-attachments/assets/510c0eba-47af-49da-95b8-6e0249c38749" alt="Screenshot" width="370" height="600">
+
 
 ## Prerequisites
 Ensure you have the following installed:
