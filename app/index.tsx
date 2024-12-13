@@ -1,6 +1,7 @@
 import { createdAt } from "@/lib/auth";
 import { router } from "expo-router";
 import { useEffect } from "react";
+import { View } from "react-native";
 
 export default function Index() {
   useEffect(() => {
@@ -14,4 +15,6 @@ export default function Index() {
     };
     checkSession();
   }, []);
+
+  return <View style={{ flex: 1, backgroundColor: "#262626" }}></View>;
 }

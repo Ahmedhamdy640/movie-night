@@ -13,8 +13,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/splash_movie_night.png",
+        "backgroundColor": "#262626"
       }
     },
     "web": {
@@ -22,15 +22,20 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+    "splash": {
+      "image": "./assets/images/splash_movie_night.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#262626"
+    },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/splash_movie_night.png",
+          "image": "./assets/images/splash_movie_night.png",
           "imageWidth": 400,
           "resizeMode": "contain",
-          "backgroundColor": "#000000"
+          "backgroundColor": "#262626"
         }
       ]
     ],

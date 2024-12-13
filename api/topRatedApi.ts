@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = process.env.API_KEY;
+import { API_KEY } from "../constants";
 export const topRatedApi = async () => {
   try {
     const response = await axios.get(

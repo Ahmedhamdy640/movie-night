@@ -1,8 +1,14 @@
 import { Databases, Client, Account, Query } from "react-native-appwrite";
 
-const PROJECT_ID = process.env.APPWRITE_PROJECT_ID;
-const DATABASE_ID = process.env.APPWRITE_DATABASE_ID;
-const COLLECTION_ID = process.env.APPWRITE_COLLECTION_ID;
+import {
+  APPWRITE_PROJECT_ID,
+  APPWRITE_DATABASE_ID,
+  APPWRITE_COLLECTION_ID,
+} from "../constants";
+
+const PROJECT_ID = APPWRITE_PROJECT_ID;
+const DATABASE_ID = APPWRITE_DATABASE_ID;
+const COLLECTION_ID = APPWRITE_COLLECTION_ID;
 
 const client = new Client()
   .setEndpoint("https://cloud.appwrite.io/v1")

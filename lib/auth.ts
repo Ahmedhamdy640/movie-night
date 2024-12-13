@@ -1,7 +1,8 @@
 import { UserProps } from "@/types/type";
 import { Client, Account, ID } from "react-native-appwrite";
+import { APPWRITE_PROJECT_ID } from "../constants";
 
-const PROJECT_ID = process.env.APPWRITE_PROJECT_ID;
+const PROJECT_ID = APPWRITE_PROJECT_ID;
 
 const client = new Client()
   .setProject(`${PROJECT_ID}`)

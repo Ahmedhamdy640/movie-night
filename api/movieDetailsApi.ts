@@ -1,6 +1,6 @@
 import axios from "axios";
+import { API_KEY } from "../constants";
 
-const API_KEY = process.env.API_KEY;
 export const movieDetailsApi = async (id: number) => {
   try {
     const response = await axios.get(
