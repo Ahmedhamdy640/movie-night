@@ -14,7 +14,7 @@ This project is a React Native application built using Expo. The app integrates 
 
 ---
 
-###Video of the flow:
+## Video of the flow:
 https://github.com/user-attachments/assets/a2ba1ca9-72e8-4f36-9bae-c0d4baad1ef8
 
 
